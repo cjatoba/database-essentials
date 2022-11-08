@@ -16,7 +16,7 @@ GRANT ALL ON *.* TO 'db_user'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;
 mysql> GRANT ALL ON mydb.* TO 'db_user'@'localhost';
 ```
 
-## RELOAD PRIVILEGES
+## Reload Privileges
 
 ```bash
 mysql> FLUSH PRIVILEGES;

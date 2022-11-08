@@ -32,16 +32,3 @@ Check temporary root password:
 ```
 grep 'A temporary password' /var/log/mysqld.log |tail -1
 ```
-
-## Configuration
-
-Follow the wizard after execute mysql_secure_installation script:
-```
-/usr/bin/mysql_secure_installation
-```
-
-## Login
-
-```
-mysql -u root -p
-```

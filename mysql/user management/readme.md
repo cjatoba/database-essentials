@@ -15,3 +15,9 @@ mysql> GRANT ALL ON mydb.* TO 'db_user'@'localhost';
 ```bash
 mysql> FLUSH PRIVILEGES;
 ```
+
+## Remove user
+
+```bash
+mysql> DROP USER db_user;
+```
